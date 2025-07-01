@@ -4,7 +4,7 @@ import tailwindcss from '@tailwindcss/vite';
 export default defineConfig(() => {
     return {
       plugins: [tailwindcss()],
-      base: './webpy/',
+      base: '/webpy/',
       resolve: {
         alias: {
           '@': path.resolve(__dirname, '.'),
