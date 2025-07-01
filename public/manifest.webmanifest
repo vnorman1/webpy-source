@@ -1,0 +1,21 @@
+{
+  "name": "Webpy :: [V.N.] – Online Photo to WebP Converter",
+  "short_name": "Webpy",
+  "description": "Gyors és egyszerű online fotó konvertálás WebP formátumba. Ingyenes, biztonságos, minőségvesztés nélkül. Készítette: vnorman1.",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#38bdf8",
+  "icons": [
+    {
+      "src": "/favicon_webpy.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon_webpy.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

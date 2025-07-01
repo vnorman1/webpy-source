@@ -1,0 +1,26 @@
+/* Egyedi animációk képekhez */
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(30px) scale(0.95);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.image-fade-in {
+  animation: fadeInUp 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+@keyframes customPulse {
+  0% { background-color: #f1f5f9; }
+  50% { background-color: #d1fae5; }
+  100% { background-color: #f1f5f9; }
+}
+
+.image-pulse {
+  animation: customPulse 1.2s infinite;
+}

@@ -1,0 +1,19 @@
+/* HelpModal animációk */
+
+@keyframes modalFadeIn {
+  0% { opacity: 0; transform: scale(0.95) translateY(40px); }
+  100% { opacity: 1; transform: scale(1) translateY(0); }
+}
+
+.modal-fade-in {
+  animation: modalFadeIn 0.45s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+@keyframes overlayFadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.overlay-fade-in {
+  animation: overlayFadeIn 0.3s cubic-bezier(0.23, 1, 0.32, 1);
+}
